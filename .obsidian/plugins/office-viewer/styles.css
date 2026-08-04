@@ -1,0 +1,1212 @@
+.pptx-viewer {
+  align-items: stretch;
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  container-name: office-viewer;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-2);
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  padding: var(--size-4-3);
+}
+
+.pptx-viewer__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--size-4-2);
+  min-height: 0;
+  min-width: 0;
+}
+
+.pptx-viewer__content > .pptx-viewer__error {
+  margin-block: auto;
+}
+
+.pptx-slide-embed {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-block: var(--size-4-3);
+  min-height: 12rem;
+  overflow: hidden;
+  padding: var(--size-4-3);
+  padding-bottom: 0;
+}
+
+.pptx-slide-embed__status,
+.pptx-slide-embed__footer,
+.pptx-slide-embed__compatibility {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.pptx-slide-embed__status {
+  margin-bottom: var(--size-4-2);
+}
+
+.pptx-slide-embed__canvas {
+  align-items: center;
+  background: var(--background-primary);
+  display: flex;
+  justify-content: center;
+  min-height: 8rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.pptx-slide-embed__canvas > * {
+  background: var(--background-primary);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pptx-slide-embed[data-state="error"] .pptx-slide-embed__status,
+.pptx-slide-embed[data-state="missing-source"] .pptx-slide-embed__status,
+.pptx-slide-embed[data-state="stale-reference"] .pptx-slide-embed__status {
+  color: var(--text-error);
+}
+
+.pptx-slide-embed__footer {
+  align-items: center;
+  background: var(--background-secondary);
+  border-top: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-3);
+  justify-content: flex-end;
+  margin-inline: calc(-1 * var(--size-4-3));
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.pptx-slide-embed__footer .pptx-slide-embed__action {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  padding: 0;
+  text-decoration-line: none;
+}
+
+.pptx-slide-embed__footer .pptx-slide-embed__action:hover,
+.pptx-slide-embed__footer .pptx-slide-embed__action:focus-visible {
+  color: var(--text-normal);
+}
+
+.pptx-slide-embed__compatibility:not(:empty) {
+  margin-top: var(--size-4-2);
+}
+
+.pptx-slide-embed__compatibility:empty {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__status,
+.pptx-viewer .pptx-viewer__page-counter {
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: var(--font-ui-small);
+  min-height: 1.5em;
+  text-align: center;
+}
+
+.pptx-viewer .pptx-viewer__header {
+  position: relative;
+}
+
+.pptx-viewer .pptx-viewer__toolbar.office-viewer-toolbar {
+  border-bottom: none;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.pptx-viewer .office-viewer-toolbar__secondary {
+  gap: var(--size-4-2);
+}
+
+.pptx-viewer[data-fullscreen="true"] .office-viewer-brand {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__header-actions {
+  align-items: center;
+  display: flex;
+  gap: var(--size-4-2);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pptx-viewer .pptx-viewer__compatibility:empty,
+.pptx-viewer .pptx-viewer__reference-notice:empty {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__controls {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+  justify-content: center;
+  min-width: 0;
+}
+
+.pptx-viewer .pptx-viewer__control-group {
+  align-items: center;
+  display: flex;
+  gap: var(--size-4-2);
+}
+
+.pptx-viewer .pptx-viewer__control-group + .pptx-viewer__control-group {
+  border-left: 1px solid var(--background-modifier-border);
+  margin-left: var(--size-4-1);
+  padding-left: var(--size-4-3);
+}
+
+.pptx-viewer .pptx-viewer__controls .pptx-viewer__page-counter {
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 3.5em;
+  text-align: center;
+}
+
+.pptx-viewer .pptx-viewer__page-jump {
+  align-items: center;
+  display: flex;
+  gap: var(--size-4-1);
+}
+
+.pptx-viewer .pptx-viewer__page-jump input {
+  width: 4.5em;
+}
+
+.pptx-viewer button:focus-visible,
+.pptx-viewer input:focus-visible,
+.pptx-viewer:focus-visible {
+  box-shadow: 0 0 0 2px var(--interactive-accent);
+  outline: 2px solid var(--text-normal);
+  outline-offset: 2px;
+}
+
+.pptx-viewer .pptx-viewer__empty {
+  align-self: center;
+  color: var(--text-muted);
+  margin: auto;
+  max-width: 28rem;
+  text-align: center;
+}
+
+.pptx-viewer .pptx-viewer__reading-body {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.pptx-viewer .pptx-viewer__slide-stage {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  position: relative;
+}
+
+.pptx-viewer .pptx-viewer__slide {
+  align-items: center;
+  background: var(--background-primary);
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  min-height: 0;
+  min-width: 0;
+  overflow: auto;
+  padding: var(--size-4-2);
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.pptx-viewer .pptx-viewer__slide > * {
+  background: var(--background-primary);
+  box-shadow: var(--shadow-s);
+  flex: 0 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pptx-viewer .pptx-viewer__selection-copy {
+  box-shadow: var(--shadow-s);
+  font-size: var(--font-ui-small);
+  left: 50%;
+  max-width: calc(100% - var(--size-4-4));
+  position: absolute;
+  top: var(--size-4-2);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: var(--layer-popover, 30);
+}
+
+.pptx-viewer .pptx-viewer__selection-copy[hidden] {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__notes-panel {
+  border-top: 1px solid var(--background-modifier-border);
+  flex: 0 0 auto;
+  max-height: 30%;
+  min-height: 0;
+  overflow: auto;
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.pptx-viewer[data-notes-collapsed="true"] .pptx-viewer__notes-panel {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__notes-content {
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  line-height: var(--line-height-normal);
+}
+
+.pptx-viewer .pptx-viewer__notes-message {
+  color: var(--text-muted);
+}
+
+.pptx-viewer .pptx-viewer__notes-paragraph {
+  margin: 0 0 var(--size-4-2);
+  white-space: pre-wrap;
+}
+
+.pptx-viewer .pptx-viewer__notes-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.pptx-viewer .pptx-viewer__notes-highlight {
+  background: var(--text-highlight-bg);
+  color: inherit;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-scopes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-2-2);
+  margin-bottom: var(--size-4-2);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-scopes button {
+  font-size: var(--font-ui-smaller);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-scopes button[aria-pressed="true"] {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.pptx-viewer
+  .pptx-viewer__slide-search-results
+  .pptx-viewer__slide-search-result--presentation {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2-1);
+  min-height: 0;
+  padding: var(--size-2-3) var(--size-2-3) var(--size-2-2);
+  text-align: left;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-result-title-button {
+  background: transparent;
+  border: none;
+  color: var(--text-normal);
+  cursor: pointer;
+  display: block;
+  padding: var(--size-2-1) var(--size-2-1) 0;
+  text-align: left;
+  width: 100%;
+}
+
+.pptx-viewer
+  .pptx-viewer__slide-search-result-title-button
+  .pptx-viewer__slide-search-result-title {
+  display: block;
+  text-align: left;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-surface {
+  align-items: stretch;
+  background: transparent;
+  border: none;
+  border-left: 2px solid transparent;
+  border-radius: 0 var(--radius-s) var(--radius-s) 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2-1);
+  padding: var(--size-2-1) var(--size-2-2);
+  text-align: left;
+  width: 100%;
+}
+
+.pptx-viewer
+  .pptx-viewer__slide-search-surface[data-action="slide-search-slide-match"] {
+  border-left-color: var(--color-accent);
+}
+
+.pptx-viewer
+  .pptx-viewer__slide-search-surface[data-action="slide-search-notes-match"] {
+  border-left-color: var(--text-accent-hover, var(--color-orange, var(--color-accent)));
+}
+
+.pptx-viewer .pptx-viewer__slide-search-surface:hover {
+  background: var(--background-modifier-hover);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-surface-head {
+  align-items: baseline;
+  display: flex;
+  gap: var(--size-2-2);
+  justify-content: space-between;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-provenance {
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+  font-weight: var(--font-medium);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-surface-head
+  .pptx-viewer__slide-search-match-count {
+  flex: 0 0 auto;
+}
+
+.pptx-viewer[data-state="error"] .pptx-viewer__status {
+  color: var(--text-error);
+}
+
+.pptx-viewer[data-state="degraded"] .pptx-viewer__status {
+  color: var(--text-warning);
+}
+
+.pptx-viewer .pptx-viewer__error {
+  align-items: center;
+  align-self: center;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-3);
+  margin: auto;
+  max-width: 34rem;
+  padding: var(--size-4-6);
+  text-align: center;
+}
+
+.pptx-viewer .pptx-viewer__safety-note,
+.pptx-viewer .pptx-viewer__action-status {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.pptx-viewer .pptx-viewer__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+  justify-content: center;
+}
+
+.pptx-viewer .pptx-viewer__action-status {
+  min-height: 1.5em;
+}
+
+.pptx-viewer .pptx-viewer__action-status:empty {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-rail {
+  background: var(--background-secondary);
+  border-right: 1px solid var(--background-modifier-border);
+  flex: 0 0 var(--pptx-thumbnail-rail-width, 168px);
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  width: var(--pptx-thumbnail-rail-width, 168px);
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-rail[data-search-open="true"] {
+  flex-basis: clamp(16rem, 28vw, 22rem);
+  overflow: hidden;
+  width: clamp(16rem, 28vw, 22rem);
+}
+
+.pptx-viewer .pptx-viewer__slide-search {
+  background: var(--background-secondary);
+  display: none;
+  flex-direction: column;
+  gap: var(--size-4-2);
+  inset: 0;
+  padding: var(--size-4-2);
+  position: absolute;
+  z-index: 2;
+}
+
+.pptx-viewer
+  .pptx-viewer__thumbnail-rail[data-search-open="true"]
+  .pptx-viewer__slide-search {
+  display: flex;
+}
+
+.pptx-viewer .pptx-viewer__slide-search input {
+  flex: 0 0 auto;
+  min-width: 0;
+  width: 100%;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-summary {
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-summary:empty {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-results {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-pagination:not([hidden]) {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--size-4-1);
+  justify-content: space-between;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-pagination[hidden] {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-range {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  text-align: center;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-result {
+  align-items: stretch;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-normal);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  height: auto;
+  min-height: var(--input-height);
+  overflow: visible;
+  padding: var(--size-4-2);
+  text-align: start;
+  white-space: normal;
+  width: 100%;
+}
+
+.pptx-viewer .pptx-viewer__slide-search-result:hover {
+  background: var(--background-modifier-hover);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-result[aria-current="location"],
+.pptx-viewer
+  .pptx-viewer__slide-search-result-title-button[aria-current="location"],
+.pptx-viewer
+  .office-viewer-search-result[aria-current="location"] {
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-result-title {
+  font-weight: var(--font-semibold);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-snippet,
+.pptx-viewer .pptx-viewer__slide-search-match-count {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.pptx-viewer .pptx-viewer__slide-search-snippet mark {
+  background: var(--text-highlight-bg);
+  color: var(--text-normal);
+}
+
+.pptx-viewer[data-thumbnails-collapsed="true"] .pptx-viewer__thumbnail-rail {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-resizer {
+  background: transparent;
+  cursor: col-resize;
+  flex: 0 0 7px;
+  margin-left: -7px;
+  outline: none;
+  position: relative;
+  touch-action: none;
+  z-index: 1;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-resizer::after {
+  background: var(--background-modifier-border);
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-resizer:hover::after,
+.pptx-viewer .pptx-viewer__thumbnail-resizer:focus-visible::after,
+.pptx-viewer .pptx-viewer__thumbnail-resizer[data-resizing="true"]::after {
+  background: var(--interactive-accent);
+  width: 3px;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-resizer:focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: -2px;
+}
+
+.pptx-viewer[data-thumbnails-collapsed="true"]
+  .pptx-viewer__thumbnail-resizer {
+  display: none;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-spacer {
+  pointer-events: none;
+  width: 1px;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-mounted-layer {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail {
+  align-items: center;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  left: 0;
+  padding: var(--size-4-2) var(--size-4-3);
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail:hover {
+  background: var(--background-modifier-hover);
+}
+
+.pptx-viewer .pptx-viewer__thumbnail[aria-current="page"] {
+  border-color: var(--interactive-accent);
+  color: var(--text-normal);
+}
+
+.pptx-viewer .pptx-viewer__thumbnail:focus-visible {
+  box-shadow: 0 0 0 2px var(--interactive-accent);
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-preview {
+  align-items: center;
+  aspect-ratio: var(--pptx-slide-aspect-ratio);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+  display: flex;
+  font-size: var(--font-ui-smaller);
+  justify-content: center;
+  overflow: hidden;
+  width: 144px;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-preview > * {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pptx-viewer .pptx-viewer__thumbnail-number {
+  color: inherit;
+  font-size: var(--font-ui-smaller);
+  line-height: 1;
+}
+
+.pptx-viewer .pptx-viewer__compatibility:not(:empty) {
+  border: 1px solid var(--color-yellow, var(--background-modifier-border));
+  border-radius: var(--radius-s);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.pptx-viewer .pptx-viewer__compatibility p {
+  margin: 0;
+}
+
+.pptx-viewer .pptx-viewer__compatibility p + p {
+  margin-top: var(--size-4-1);
+}
+
+.pptx-viewer[data-fullscreen="true"],
+.pptx-viewer:fullscreen {
+  background: var(--background-primary);
+  height: 100vh;
+  width: 100vw;
+}
+
+.office-viewer-donate {
+  align-items: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-3);
+  margin-top: var(--size-4-6);
+  padding: var(--size-4-5);
+  text-align: center;
+}
+
+.office-viewer-donate__description {
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 34rem;
+}
+
+.office-viewer-donate__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+  justify-content: center;
+}
+
+.office-viewer-donate__button {
+  display: inline-flex;
+  line-height: 0;
+  text-decoration-line: none;
+}
+
+.office-viewer-donate__image {
+  display: block;
+  height: 40px;
+  width: 142px;
+  object-fit: contain;
+}
+
+.office-viewer-donate__button:focus-visible {
+  border-radius: var(--radius-s);
+  box-shadow: 0 0 0 2px var(--interactive-accent);
+  outline: 2px solid var(--text-normal);
+  outline-offset: 2px;
+}
+
+/* Shared Office Viewer chrome: brand, toolbar, error recovery, search feedback. */
+.office-viewer-toolbar {
+  align-items: center;
+  border-bottom: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.office-viewer-toolbar__primary,
+.office-viewer-toolbar__secondary {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+}
+
+.office-viewer-toolbar__secondary {
+  margin-inline-start: auto;
+}
+
+.office-viewer-brand {
+  align-items: center;
+  color: var(--text-normal);
+  display: inline-flex;
+  flex: 0 1 auto;
+  gap: var(--size-4-2);
+  min-width: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.office-viewer-brand__mark {
+  display: block;
+  flex: 0 0 auto;
+  height: 20px;
+  width: 20px;
+}
+
+.office-viewer-brand__product {
+  color: var(--text-normal);
+  font-weight: var(--font-medium);
+  white-space: nowrap;
+}
+
+.office-viewer-brand__format {
+  background: var(--background-modifier-hover);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.2;
+  padding: 0.1em 0.4em;
+  white-space: nowrap;
+}
+
+@container office-viewer (max-width: 380px) {
+  .office-viewer-brand__product,
+  .office-viewer-brand__format {
+    display: none;
+  }
+}
+
+.office-viewer-icon-button {
+  align-items: center;
+  display: inline-flex;
+  height: var(--input-height);
+  justify-content: center;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0;
+  width: var(--input-height);
+}
+
+.office-viewer-icon-button svg {
+  height: 1.1em;
+  width: 1.1em;
+}
+
+.office-viewer-error {
+  align-items: center;
+  align-self: center;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-3);
+  margin: auto;
+  max-width: 34rem;
+  padding: var(--size-4-6);
+  text-align: center;
+}
+
+.office-viewer-error__status {
+  color: var(--text-error);
+  font-size: var(--font-ui-medium);
+}
+
+.office-viewer-error__safety-note,
+.office-viewer-error__action-status {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.office-viewer-error__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-4-2);
+  justify-content: center;
+}
+
+.office-viewer-error__action-status {
+  min-height: 1.5em;
+}
+
+.office-viewer-error__action-status:empty {
+  display: none;
+}
+
+.office-viewer-search-header {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+}
+
+.office-viewer-search-result[aria-current="location"] {
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
+/* Production DOCX reading and current-document search. */
+.office-viewer-docx-shell {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  container-name: office-viewer;
+  container-type: inline-size;
+  display: grid;
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+  height: 100%;
+  min-height: 0;
+}
+
+.office-viewer-docx-shell[data-state="error"] {
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+}
+
+.office-viewer-docx-toolbar.office-viewer-toolbar {
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.office-viewer-docx-action-status:not(:empty) {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: var(--size-4-2) var(--size-4-4);
+}
+
+.office-viewer-docx-notices:not([hidden]) {
+  align-items: flex-start;
+  background: var(--background-secondary);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  display: flex;
+  font-size: var(--font-ui-small);
+  gap: var(--size-4-2);
+  margin: var(--size-4-2) var(--size-4-4) 0;
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.office-viewer-docx-notices__icon {
+  color: var(--text-faint);
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-top: 0.1em;
+}
+
+.office-viewer-docx-notices__icon svg {
+  height: var(--icon-s);
+  width: var(--icon-s);
+}
+
+.office-viewer-docx-notices__text {
+  line-height: var(--line-height-tight);
+}
+
+.office-viewer-docx-main {
+  display: flex;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.office-viewer-docx-main > .office-viewer-error {
+  flex: 1 1 auto;
+}
+
+.office-viewer-docx-search-rail {
+  background: var(--background-secondary);
+  border-inline-end: 1px solid var(--background-modifier-border);
+  display: none;
+  flex: 0 0 clamp(16rem, 28vw, 22rem);
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  width: clamp(16rem, 28vw, 22rem);
+}
+
+.office-viewer-docx-shell[data-search-open="true"]
+  .office-viewer-docx-search-rail {
+  display: block;
+}
+
+.office-viewer-docx-search {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-2);
+  height: 100%;
+  min-height: 0;
+  padding: var(--size-4-2);
+}
+
+.office-viewer-docx-search-input {
+  flex: 0 0 auto;
+  min-width: 0;
+  width: 100%;
+}
+
+.office-viewer-docx-search-summary {
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+}
+
+.office-viewer-docx-search-summary:empty {
+  display: none;
+}
+
+.office-viewer-docx-search-results {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.office-viewer-docx-search-pagination:not([hidden]) {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--size-4-1);
+  justify-content: space-between;
+}
+
+.office-viewer-docx-search-pagination[hidden] {
+  display: none;
+}
+
+.office-viewer-docx-search-range {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  text-align: center;
+}
+
+.office-viewer-docx-search-result {
+  align-items: stretch;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-normal);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--size-4-1);
+  height: auto;
+  min-height: var(--input-height);
+  overflow: visible;
+  padding: var(--size-4-2);
+  text-align: start;
+  white-space: normal;
+  width: 100%;
+}
+
+.office-viewer-docx-search-result:hover {
+  background: var(--background-modifier-hover);
+}
+
+.office-viewer-docx-search-result[aria-current="location"] {
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
+.office-viewer-docx-search-result-title {
+  font-weight: var(--font-semibold);
+}
+
+.office-viewer-docx-search-snippet,
+.office-viewer-docx-search-match-count {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.office-viewer-docx-search-snippet mark {
+  background: var(--text-highlight-bg);
+  color: var(--text-normal);
+}
+
+.office-viewer-docx-reading-body {
+  container-type: inline-size;
+  flex: 1 1 auto;
+  line-height: 1.65;
+  min-height: 0;
+  min-width: 0;
+  overflow: auto;
+  padding: var(--size-4-4) 0;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.office-viewer-docx-reading-body > .office-viewer-docx {
+  margin: 0 auto;
+  max-width: 52rem;
+  width: min(100%, 52rem);
+}
+
+/* Collapse docx-preview's grey wrapper + white page into one reading surface. */
+.office-viewer-docx-reading-body .docx-wrapper {
+  align-items: stretch;
+  background: transparent;
+  padding: 0;
+  width: 100%;
+}
+
+.office-viewer-docx-reading-body .docx-wrapper > section.docx {
+  box-sizing: border-box;
+  box-shadow: none;
+  margin: 0 auto;
+  max-width: 52rem;
+  padding-inline: clamp(1.5rem, 12cqi, 7.5rem);
+  width: min(100%, 52rem);
+}
+
+/*
+ * docx-preview expresses drawings with fixed point sizes. Keep those authored
+ * dimensions as an upper bound, but let wide drawings shrink with the reading
+ * pane so narrow Obsidian splits do not clip them or gain horizontal scrolling.
+ */
+.office-viewer-docx-reading-body .office-viewer-docx-media-wrapper {
+  box-sizing: border-box;
+  height: auto;
+  max-width: 100%;
+  width: min(
+    100%,
+    var(--office-viewer-docx-media-width, 100%)
+  );
+}
+
+.office-viewer-docx-reading-body
+  .office-viewer-docx-media-wrapper
+  > .office-viewer-docx-media {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.office-viewer-docx-reading-body .office-viewer-docx-media {
+  height: auto;
+  max-width: 100%;
+}
+
+.office-viewer-docx-reading-body .office-viewer-docx-table {
+  box-sizing: border-box;
+  max-width: 100%;
+  table-layout: fixed;
+  width: min(
+    100%,
+    var(--office-viewer-docx-table-width, 100%)
+  );
+}
+
+.office-viewer-docx-reading-body
+  .office-viewer-docx-table
+  :is(td, th) {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.office-viewer-docx-reading-body .office-viewer-docx-table col {
+  width: var(--office-viewer-docx-column-width, auto);
+}
+
+/*
+ * Follow Obsidian appearance: Word's authored black-on-white page is harsh in
+ * dark themes. Invert the page while restoring media so charts/photos keep
+ * natural colors. Soften contrast so the result lands near Obsidian dark
+ * charcoal / off-white (--background-primary / --text-normal) instead of pure
+ * #000 / #fff. Light themes keep the native Word surface.
+ */
+.theme-dark .office-viewer-docx-reading-body .docx-wrapper > section.docx {
+  background: #ffffff;
+  filter: invert(1) hue-rotate(180deg) contrast(0.78);
+}
+
+.theme-dark
+  .office-viewer-docx-reading-body
+  .docx-wrapper
+  > section.docx
+  :is(img, svg, video, canvas) {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.theme-dark .office-viewer-docx--bounded-semantic {
+  color: var(--text-normal);
+}
+
+.theme-light .office-viewer-docx-reading-body .docx-wrapper > section.docx {
+  background: #ffffff;
+  color: #000000;
+}
+
+.office-viewer-docx--bounded-semantic {
+  min-height: 100%;
+}
+
+.office-viewer-docx-bounded-spacer {
+  pointer-events: none;
+  width: 1px;
+}
+
+.office-viewer-docx-bounded-list-item {
+  display: list-item;
+  margin-inline-start: var(--size-4-6);
+}
+
+.office-viewer-docx-bounded-table-paragraph {
+  border: 1px solid var(--background-modifier-border);
+  margin: 0;
+  padding: var(--size-4-2) var(--size-4-3);
+}
+
+.office-viewer-docx-blocked-link {
+  color: var(--text-muted);
+  text-decoration-line: line-through;
+  text-decoration-style: dotted;
+}
+
+.office-viewer-docx-reading-body [data-docx-paragraph-ordinal] {
+  border-radius: var(--radius-s);
+  cursor: default;
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+}
+
+.office-viewer-docx-reading-body .is-active-docx-paragraph {
+  background: var(--text-highlight-bg);
+  outline-color: var(--interactive-accent);
+}
+
+.office-viewer-docx-unavailable-content {
+  background: var(--background-secondary);
+  border: 1px dashed var(--color-yellow, var(--background-modifier-border));
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  display: block;
+  margin: var(--size-4-2) 0;
+  padding: var(--size-4-2) var(--size-4-3);
+}

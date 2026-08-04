@@ -1,0 +1,124 @@
+.lop-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: 0;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.lop-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+}
+
+.lop-toolbar button,
+.lop-toolbar select {
+  height: 28px;
+}
+
+.lop-status {
+  flex: 1 1 220px;
+  min-width: 160px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lop-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background: var(--background-primary);
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.lop-text {
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  padding: 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-monospace);
+  font-size: var(--font-text-size);
+  line-height: 1.55;
+  color: var(--text-normal);
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.lop-pdf {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  border: 0;
+  background: var(--background-primary);
+  display: block;
+}
+
+.lop-docx-text {
+  font-family: var(--font-text);
+}
+
+.lop-empty,
+.lop-error {
+  max-width: 760px;
+  padding: 18px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.lop-error {
+  color: var(--text-error);
+}
+
+.lop-table-wrap {
+  width: 100%;
+  overflow: auto;
+}
+
+.lop-table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 100%;
+  font-size: var(--font-ui-small);
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.lop-table th,
+.lop-table td {
+  max-width: 360px;
+  padding: 4px 8px;
+  border: 1px solid var(--background-modifier-border);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.lop-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.lop-sheet-info {
+  padding: 8px 12px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  border-bottom: 1px solid var(--background-modifier-border);
+}

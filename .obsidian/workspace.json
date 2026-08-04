@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76d83e771178cba7",
+        "id": "61efabba925bb158",
         "type": "tabs",
         "children": [
           {
-            "id": "50ea4edab4af72be",
+            "id": "d5f230c773cc1ef3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "404ccb97c567eb8e",
@@ -175,11 +175,25 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "modular-theme-dashboard:Dashboard": false
     }
   },
   "active": "b43ff452adbd5d65",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Semana 01",
+    "Formulación y Evaluación de Proyectos/Semana 01/Acuerdo pedagógico Formulación y evaluación de proyectos.docx",
+    "Formulación y Evaluación de Proyectos/Semana 01/Almacén2 copia al 120720.xls",
+    "Formulación y Evaluación de Proyectos/Semana 01/FO-GD-DO-28 SYLLABUS FORMULACIÓN Y EVALUACION DE PROYECYOS_V09.pdf",
+    "Teoría de las Organizaciones/Semana 01/7. FO-GD-DO-28 SYLLABUS DE TEORIA DE LAS ORGANIZACIONES.docx",
+    "Teoría de las Organizaciones/Semana 01/FO-GD-DO-73 ACUERDO PEDAGÓGICO TERORÍA DE LAS ORGANIZACIONES 1.docx",
+    "Teoría de las Organizaciones/Semana 01/Teoría de las Organizaciones - Conceptos Iniciales.md",
+    "Teoría de las Organizaciones/Semana 01/Fundamentos-de-Administracion.pdf",
+    "待办/2026-08-03.md",
+    "待办",
+    "Teoría de las Organizaciones/Fundamentos-de-Administracion.pdf",
+    "Teoría de las Organizaciones/7. FO-GD-DO-28 SYLLABUS DE TEORIA DE LAS ORGANIZACIONES.docx",
+    "Teoría de las Organizaciones/Semana 01/FO-GD-DO-73 ACUERDO PEDAGÓGICO TERORÍA DE LAS ORGANIZACIONES 1 - copia.docx",
     "README.md"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "local-office-preview",
+  "name": "Local Office Preview",
+  "version": "0.2.3",
+  "minAppVersion": "1.5.0",
+  "description": "Read-only local preview for PPT/PPTX, XLS/XLSX, DOC/DOCX, TXT, and LOG files.",
+  "author": "tndgyq",
+  "authorUrl": "https://github.com/tndgyq",
+  "isDesktopOnly": true
+}
