@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b577157b6e9bfde7",
+        "id": "0825cba46b5e5223",
         "type": "tabs",
         "children": [
           {
-            "id": "28b8171e1945addf",
+            "id": "d5c5b2c36b037613",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "README"
             }
           }
         ]
@@ -180,28 +184,33 @@
   },
   "active": "b43ff452adbd5d65",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Semana 02/WeeklySummary/Architecture.png",
+    "Sistemas Distribuidos/Semana 02/WeeklySummary/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
+    "Sistemas Distribuidos/Semana 02/WeeklySummary/Week-01.png",
+    "Sistemas Distribuidos/Semana 02/WeeklySummary",
+    "Sistemas Distribuidos/Semana 02/Presentation/HABLADOR EMPRESA.ppsx",
+    "Sistemas Distribuidos/Semana 02/Presentation",
+    "Sistemas Distribuidos/Semana 02/Image/WhatsApp Image 2026-03-01 at 2.13.18 PM.jpeg",
+    "Sistemas Distribuidos/Semana 02/Image/WhatsApp Image 2026-03-01 at 2.12.59 PM.jpeg",
+    "Sistemas Distribuidos/Semana 02/Image",
+    "Sistemas Distribuidos/Semana 02/Data/valores.xlsx",
+    "Sistemas Distribuidos/Semana 02/Data/RESERVAS 2026.xlsx",
+    "Sistemas Distribuidos/Semana 02/Data/PAGOS OPERACIONALES.xlsx",
+    "Sistemas Distribuidos/Semana 02/Data/GASTOS OPERACIONALES.xlsx",
+    "Sistemas Distribuidos/Semana 02/Data/CONTABILIDAD EMPRESARIAL.xlsx",
+    "Sistemas Distribuidos/Semana 02/Data",
+    "Sistemas Distribuidos/Semana 02/preguntas-respuestas-cliente-travesia-natural.md",
+    "Sistemas Distribuidos/Semana 02/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
+    "Sistemas Distribuidos/ProyectoDistribuido/Weekly/sistemas-distribuidos-2026-b-g2/02-week/02-session/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
+    "Sistemas Distribuidos/Semana 02/Week-01.png",
+    "Sistemas Distribuidos/ProyectoDistribuido/Weekly/sistemas-distribuidos-2026-b-g2/01-week/hu-status/WeeklySummary/Week-01.png",
+    "README.md",
     "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810072016.png",
     "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810065211.png",
-    "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810064316.png",
-    "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810063414.png",
-    "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810063223.png",
-    "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS",
-    "Pasted image 20260810062841.png",
-    "Pasted image 20260810062838.png",
     "Formulación y Evaluación de Proyectos/Semana 02/Desarrollo de proyectos metodología PMI.md",
-    "Formulación y Evaluación de Proyectos/Semana 02/0.Desarrollo de proyectos metodologia PMI.pptx",
-    "Formulación y Evaluación de Proyectos/Semana 02/~$0.Desarrollo de proyectos metodologia PMI.pptx",
-    "Inteligencia de Negocios/Semana 01/01-FO-GD-28 SYLLABUS INTELIGENCIA DE NEGOCIOS - V09.docx",
-    "Formulación y Evaluación de Proyectos/Semana 02",
     "Sistemas Distribuidos/Semana 01/Dominio - Módulo.md",
     "Sistemas Distribuidos/Semana 01/Worker - API REST.md",
-    "Auditoría de Sistemas Informáticos/Semana 01/FO-GD-28 SYLLABUS AUDITORIA DE SISTEMAS _V08.docx",
-    "Auditoría de Sistemas Informáticos/Semana 01/Acuerdo pedagógico Auditoria de sistemas informáticos.docx",
-    "Auditoría de Sistemas Informáticos/Semana 01",
-    "Inteligencia de Negocios/Semana 01",
-    "Sistemas Distribuidos/Semana 01",
     "Teoría de las Organizaciones/Semana 01/Teoría de las Organizaciones - Conceptos Iniciales.md",
-    "待办/2026-08-03.md",
-    "README.md"
+    "待办/2026-08-03.md"
   ]
 }
