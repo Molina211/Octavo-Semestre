@@ -1,0 +1,201 @@
+﻿MEDICAMENTO;CANTIDAD;PRECIO UNITARIO;PRECIO DE VENTA;FECHA DE VENCIMIENTO;NUMERO DE LOTE;PAIS-CIUDAD;PRECIO DE INVENTARIO
+Tramadol 600mg;120;12.000;16.200;10/05/2028;LOTE-34890;Colombia-Cali;1.440.000
+Metoprolol 500mg;48;1.200;1.560;24/07/2027;LOTE-28585;Colombia-Medellín;57.600
+Fluoxetina 1000mg;11;8.000;10.400;17/07/2028;LOTE-90683;Panamá-Ciudad de Panamá;88.000
+Azitromicina 750mg;4;1.000;1.150;23/10/2026;LOTE-34930;Costa Rica-San José;4.000
+Atorvastatina 750mg;8;12.000;15.000;12/12/2027;LOTE-87458;Estados Unidos-Miami;96.000
+Ranitidina 600mg;60;4.000;5.200;21/09/2026;LOTE-96828;Colombia-Medellín;240.000
+Insulina Glargina 850mg;72;10.000;13.500;24/01/2029;LOTE-20905;Brasil-São Paulo;720.000
+Paracetamol 300mg;59;4.000;4.600;27/11/2026;LOTE-83812;España-Madrid;236.000
+Losartán 400mg;28;4.000;5.200;24/11/2026;LOTE-12213;Estados Unidos-Miami;112.000
+Fluconazol 50mg;55;2.500;2.875;11/01/2028;LOTE-59212;Brasil-São Paulo;137.500
+Captopril 400mg;19;2.500;3.500;20/06/2027;LOTE-54157;Colombia-Medellín;47.500
+Furosemida 300mg;4;10.000;11.500;1/02/2027;LOTE-42294;Brasil-São Paulo;40.000
+Losartán 50mg;16;12.000;15.600;17/03/2027;LOTE-99401;Argentina-Buenos Aires;192.000
+Ranitidina 500mg;131;2.500;3.500;12/11/2028;LOTE-27166;Perú-Lima;327.500
+Cefalexina 400mg;30;8.000;10.400;22/04/2027;LOTE-10061;México-Ciudad de México;240.000
+Alprazolam 250mg;6;2.500;3.000;25/10/2027;LOTE-88907;Panamá-Ciudad de Panamá;15.000
+Gabapentina 100mg;11;1.500;1.800;13/12/2027;LOTE-43852;Colombia-Bogotá;16.500
+Loperamida 750mg;85;4.000;5.200;1/12/2026;LOTE-19736;Colombia-Medellín;340.000
+Clonazepam 750mg;63;500;675;29/09/2027;LOTE-58719;Ecuador-Quito;31.500
+Insulina Glargina 150mg;124;1.500;1.950;23/03/2027;LOTE-92214;Colombia-Cali;186.000
+Furosemida 200mg;64;2.500;3.000;13/10/2028;LOTE-92441;Argentina-Buenos Aires;160.000
+Ranitidina 850mg;100;15.000;20.250;6/12/2026;LOTE-65241;Colombia-Bogotá;1.500.000
+Losartán 100mg;10;3.500;4.200;13/10/2028;LOTE-61329;México-Ciudad de México;35.000
+Warfarina 750mg;126;4.000;5.400;15/03/2027;LOTE-19014;Colombia-Cali;504.000
+Enalapril 500mg;144;1.000;1.250;22/04/2027;LOTE-36735;Brasil-São Paulo;144.000
+Ibuprofeno 100mg;69;10.000;13.000;30/05/2027;LOTE-17924;Colombia-Bogotá;690.000
+Naproxeno 250mg;95;1.500;1.725;22/09/2027;LOTE-28141;Costa Rica-San José;142.500
+Tramadol 300mg;134;1.500;2.025;22/10/2026;LOTE-12345;Chile-Santiago;201.000
+Prednisona 1000mg;80;800;920;21/05/2028;LOTE-93385;Colombia-Medellín;64.000
+Amlodipino 100mg;80;5.000;6.000;30/11/2026;LOTE-19864;Chile-Santiago;400.000
+Fluoxetina 300mg;12;1.500;1.875;12/09/2027;LOTE-21131;Panamá-Ciudad de Panamá;18.000
+Amlodipino 100mg;107;500;650;25/04/2028;LOTE-11904;Ecuador-Quito;53.500
+Clindamicina 400mg;98;500;675;29/11/2026;LOTE-20512;Colombia-Medellín;49.000
+Doxiciclina 100mg;66;10.000;14.000;21/08/2027;LOTE-60913;Costa Rica-San José;660.000
+Complejo B 1000mg;149;12.000;15.600;3/01/2028;LOTE-80942;Colombia-Medellín;1.788.000
+Hidroclorotiazida 600mg;8;4.000;5.400;15/12/2026;LOTE-73039;Colombia-Bogotá;32.000
+Enalapril 1000mg;29;15.000;20.250;23/07/2028;LOTE-73739;México-Ciudad de México;435.000
+Acetaminofén 300mg;78;1.500;2.100;4/06/2028;LOTE-36551;Argentina-Buenos Aires;117.000
+Azitromicina 300mg;114;15.000;18.000;17/08/2027;LOTE-63052;Panamá-Ciudad de Panamá;1.710.000
+Paracetamol 200mg;111;2.500;3.000;15/10/2027;LOTE-38780;Ecuador-Quito;277.500
+Salbutamol 50mcg;35;1.500;1.950;11/09/2027;LOTE-15317;Brasil-São Paulo;52.500
+Omeprazol 250mg;44;1.200;1.560;12/01/2028;LOTE-46066;Costa Rica-San José;52.800
+Clonazepam 400mg;98;15.000;21.000;5/08/2027;LOTE-91890;Chile-Santiago;1.470.000
+Salbutamol 100mcg;9;3.500;4.725;29/10/2026;LOTE-98900;Brasil-São Paulo;31.500
+Ciprofloxacino 750mg;91;4.000;5.600;5/12/2028;LOTE-83929;Colombia-Bogotá;364.000
+Cefalexina 150mg;104;12.000;14.400;12/10/2026;LOTE-44919;Colombia-Barranquilla;1.248.000
+Loperamida 150mg;13;1.200;1.560;6/01/2027;LOTE-92570;Argentina-Buenos Aires;15.600
+Cefalexina 850mg;95;1.000;1.400;7/04/2027;LOTE-36128;Estados Unidos-Miami;95.000
+Amlodipino 250mg;46;500;650;17/03/2028;LOTE-14741;Colombia-Cali;23.000
+Enalapril 250mg;89;2.000;2.600;2/02/2029;LOTE-39350;Colombia-Medellín;178.000
+Warfarina 1000mg;100;1.500;1.950;25/12/2027;LOTE-35805;Panamá-Ciudad de Panamá;150.000
+Acetaminofén 400mg;141;5.000;6.500;17/08/2027;LOTE-95370;Colombia-Barranquilla;705.000
+Losartán 1000mg;32;2.500;3.000;21/10/2027;LOTE-21513;México-Ciudad de México;80.000
+Fluoxetina 300mg;68;500;625;15/02/2028;LOTE-20849;Colombia-Bogotá;34.000
+Tramadol 300mg;141;10.000;12.500;29/01/2028;LOTE-13723;Colombia-Barranquilla;1.410.000
+Omeprazol 400mg;9;2.000;2.700;26/08/2027;LOTE-99991;España-Madrid;18.000
+Aspirina 500mg;39;12.000;15.600;1/05/2028;LOTE-21275;España-Madrid;468.000
+Enalapril 500mg;135;4.000;5.600;14/04/2028;LOTE-93738;Colombia-Cali;540.000
+Hidroclorotiazida 600mg;144;3.500;4.375;4/08/2028;LOTE-59966;Estados Unidos-Miami;504.000
+Trazodona 200mg;78;1.500;2.025;6/03/2028;LOTE-45777;Ecuador-Quito;117.000
+Clopidogrel 200mg;106;1.200;1.620;22/09/2026;LOTE-89328;Perú-Lima;127.200
+Ibuprofeno 600mg;12;8.000;10.800;15/12/2028;LOTE-83776;Colombia-Medellín;96.000
+Clopidogrel 100mg;43;1.000;1.350;30/12/2027;LOTE-64234;Costa Rica-San José;43.000
+Captopril 250mg;64;15.000;19.500;25/01/2027;LOTE-54522;Perú-Lima;960.000
+Amlodipino 600mg;82;1.200;1.440;20/11/2027;LOTE-90988;Colombia-Bogotá;98.400
+Paracetamol 150mg;6;800;960;23/02/2027;LOTE-39787;Colombia-Bogotá;4.800
+Fluconazol 250mg;83;6.500;7.800;12/06/2028;LOTE-75381;Colombia-Medellín;539.500
+Clopidogrel 1000mg;150;1.200;1.620;16/06/2028;LOTE-42840;Brasil-São Paulo;180.000
+Ranitidina 1000mg;136;10.000;11.500;6/10/2027;LOTE-92969;Perú-Lima;1.360.000
+Hidroclorotiazida 750mg;41;2.500;3.500;16/03/2028;LOTE-93685;Colombia-Barranquilla;102.500
+Hidroclorotiazida 200mg;139;1.500;1.800;14/10/2028;LOTE-92298;España-Madrid;208.500
+Prednisona 150mg;81;5.000;6.000;28/04/2027;LOTE-35499;Costa Rica-San José;405.000
+Losartán 150mg;62;1.500;2.100;16/12/2026;LOTE-44012;Perú-Lima;93.000
+Losartán 400mg;108;1.500;1.800;3/11/2027;LOTE-92312;Panamá-Ciudad de Panamá;162.000
+Ibuprofeno 100mg;52;6.500;8.125;13/01/2027;LOTE-76280;Panamá-Ciudad de Panamá;338.000
+Sulfato Ferroso 300mg;129;2.500;2.875;23/01/2028;LOTE-23916;Colombia-Bogotá;322.500
+Amoxicilina 600mg;132;15.000;18.000;30/03/2027;LOTE-34187;Colombia-Medellín;1.980.000
+Clonazepam 150mg;41;4.000;5.600;23/12/2026;LOTE-85992;Colombia-Bogotá;164.000
+Aspirina 850mg;119;1.000;1.150;17/08/2027;LOTE-61233;Chile-Santiago;119.000
+Ondansetrón 600mg;91;10.000;12.000;24/05/2028;LOTE-58910;Colombia-Bogotá;910.000
+Doxiciclina 1000mg;11;2.500;3.000;8/11/2027;LOTE-69500;México-Guadalajara;27.500
+Complejo B 300mg;104;2.500;3.375;5/03/2027;LOTE-22425;Argentina-Buenos Aires;260.000
+Acetaminofén 300mg;22;8.000;10.800;22/05/2028;LOTE-35027;Argentina-Buenos Aires;176.000
+Alprazolam 300mg;67;3.500;4.025;18/10/2028;LOTE-30976;Estados Unidos-Miami;234.500
+Captopril 150mg;85;6.500;8.450;8/11/2028;LOTE-33796;Perú-Lima;552.500
+Clonazepam 1000mg;48;1.000;1.250;22/07/2027;LOTE-71451;Colombia-Medellín;48.000
+Acetaminofén 300mg;13;3.000;3.750;30/07/2028;LOTE-49173;México-Guadalajara;39.000
+Clonazepam 850mg;104;2.000;2.700;4/12/2026;LOTE-61064;Argentina-Buenos Aires;208.000
+Clopidogrel 850mg;55;1.200;1.560;27/04/2028;LOTE-12991;Colombia-Medellín;66.000
+Trazodona 100mg;61;3.500;4.550;2/11/2027;LOTE-76160;Colombia-Bogotá;213.500
+Sulfato Ferroso 200mg;97;500;575;8/06/2027;LOTE-42884;México-Ciudad de México;48.500
+Metronidazol 600mg;139;10.000;13.500;20/04/2028;LOTE-23059;Panamá-Ciudad de Panamá;1.390.000
+Tramadol 850mg;20;800;1.040;27/02/2027;LOTE-60581;Chile-Santiago;16.000
+Azitromicina 500mg;139;800;1.040;5/02/2028;LOTE-65142;México-Ciudad de México;111.200
+Hidroclorotiazida 400mg;80;6.500;8.775;6/07/2027;LOTE-73339;Panamá-Ciudad de Panamá;520.000
+Ciprofloxacino 600mg;73;4.000;4.600;1/10/2026;LOTE-42115;Ecuador-Quito;292.000
+Amoxicilina 850mg;41;10.000;14.000;21/10/2027;LOTE-16919;Costa Rica-San José;410.000
+Salbutamol 75mcg;13;5.000;5.750;11/12/2028;LOTE-39321;Perú-Lima;65.000
+Ácido Fólico 500mg;65;3.000;3.450;5/03/2028;LOTE-22907;Costa Rica-San José;195.000
+Ácido Fólico 500mg;37;3.000;4.050;9/09/2028;LOTE-25085;Colombia-Bogotá;111.000
+Trazodona 400mg;117;1.200;1.440;9/11/2026;LOTE-56752;Argentina-Buenos Aires;140.400
+Cetirizina 100mg;94;12.000;14.400;31/07/2028;LOTE-64653;Chile-Santiago;1.128.000
+Diazepam 250mg;150;10.000;12.500;21/11/2028;LOTE-79568;Estados Unidos-Miami;1.500.000
+Aspirina 250mg;33;3.000;3.900;11/01/2027;LOTE-75922;Costa Rica-San José;99.000
+Furosemida 600mg;92;3.500;4.375;2/06/2028;LOTE-99789;Brasil-São Paulo;322.000
+Gabapentina 1000mg;49;3.500;4.200;30/03/2027;LOTE-42631;Argentina-Buenos Aires;171.500
+Cefalexina 200mg;11;800;920;21/06/2027;LOTE-44015;Perú-Lima;8.800
+Ibuprofeno 750mg;10;1.200;1.440;24/03/2028;LOTE-46475;Colombia-Medellín;12.000
+Sulfato Ferroso 100mg;42;3.000;4.200;4/10/2027;LOTE-73440;Chile-Santiago;126.000
+Prednisona 200mg;87;5.000;6.500;18/10/2028;LOTE-27480;Estados Unidos-Miami;435.000
+Omeprazol 100mg;115;2.500;3.250;25/11/2027;LOTE-43826;Perú-Lima;287.500
+Cetirizina 300mg;40;5.000;6.250;31/03/2028;LOTE-34099;Perú-Lima;200.000
+Cefalexina 300mg;149;1.200;1.560;14/08/2027;LOTE-20290;Argentina-Buenos Aires;178.800
+Metformina 400mg;145;15.000;21.000;4/01/2028;LOTE-49173;Estados Unidos-Miami;2.175.000
+Loperamida 50mg;20;4.000;4.800;25/07/2028;LOTE-89130;Colombia-Medellín;80.000
+Aciclovir 250mg;127;5.000;6.250;10/02/2027;LOTE-38672;México-Guadalajara;635.000
+Clindamicina 1000mg;84;6.500;7.475;13/08/2027;LOTE-67800;Ecuador-Quito;546.000
+Diazepam 850mg;72;12.000;16.200;17/12/2028;LOTE-49946;Chile-Santiago;864.000
+Salbutamol 50mcg;103;3.000;3.450;22/09/2027;LOTE-57915;Colombia-Bogotá;309.000
+Levotiroxina 75mcg;150;8.000;9.600;12/10/2028;LOTE-83899;México-Guadalajara;1.200.000
+Simvastatina 600mg;40;2.000;2.400;17/12/2026;LOTE-69555;Costa Rica-San José;80.000
+Dexametasona 50mg;57;800;1.080;26/02/2027;LOTE-84378;México-Ciudad de México;45.600
+Ibuprofeno 850mg;109;1.000;1.350;29/03/2028;LOTE-50039;España-Madrid;109.000
+Fluoxetina 100mg;86;1.000;1.250;10/10/2028;LOTE-23815;Costa Rica-San José;86.000
+Salbutamol 100mcg;7;1.500;1.725;19/10/2028;LOTE-95066;Perú-Lima;10.500
+Atorvastatina 1000mg;57;15.000;20.250;29/08/2027;LOTE-70171;Perú-Lima;855.000
+Prednisona 300mg;86;1.500;1.950;29/01/2028;LOTE-80430;España-Madrid;129.000
+Ácido Fólico 100mg;12;10.000;14.000;9/09/2027;LOTE-10507;España-Madrid;120.000
+Simvastatina 100mg;119;500;675;22/09/2027;LOTE-11330;España-Madrid;59.500
+Diclofenaco 400mg;108;1.500;1.800;15/10/2028;LOTE-31266;Panamá-Ciudad de Panamá;162.000
+Simvastatina 850mg;43;5.000;6.000;20/10/2027;LOTE-65698;Argentina-Buenos Aires;215.000
+Dexametasona 250mg;16;15.000;18.750;4/10/2028;LOTE-25048;México-Ciudad de México;240.000
+Cefalexina 150mg;46;800;1.040;4/10/2026;LOTE-86554;Chile-Santiago;36.800
+Amoxicilina 300mg;28;2.500;3.000;19/09/2027;LOTE-38490;Ecuador-Quito;70.000
+Atorvastatina 750mg;121;3.000;3.900;25/03/2027;LOTE-46839;Perú-Lima;363.000
+Naproxeno 250mg;141;15.000;18.750;26/01/2028;LOTE-62771;Costa Rica-San José;2.115.000
+Metronidazol 850mg;141;1.000;1.300;1/05/2027;LOTE-62353;Colombia-Bogotá;141.000
+Clonazepam 150mg;99;3.500;4.025;21/07/2028;LOTE-41144;Costa Rica-San José;346.500
+Acetaminofén 500mg;96;12.000;14.400;16/09/2028;LOTE-65238;Ecuador-Quito;1.152.000
+Azitromicina 400mg;41;5.000;6.000;9/06/2027;LOTE-77649;Colombia-Cali;205.000
+Doxiciclina 1000mg;69;800;960;24/04/2028;LOTE-33370;Colombia-Bogotá;55.200
+Clonazepam 150mg;33;1.000;1.250;20/06/2027;LOTE-90591;Brasil-São Paulo;33.000
+Hidroclorotiazida 100mg;123;12.000;13.800;22/10/2028;LOTE-86891;Argentina-Buenos Aires;1.476.000
+Metoprolol 250mg;5;2.500;3.250;2/04/2027;LOTE-99421;Colombia-Medellín;12.500
+Tramadol 200mg;10;10.000;13.500;5/02/2028;LOTE-30650;Estados Unidos-Miami;100.000
+Furosemida 300mg;80;8.000;9.200;8/04/2028;LOTE-50068;Chile-Santiago;640.000
+Clindamicina 1000mg;18;6.500;7.475;20/08/2028;LOTE-28422;Colombia-Medellín;117.000
+Clindamicina 400mg;119;1.200;1.680;16/12/2027;LOTE-11618;Estados Unidos-Miami;142.800
+Simvastatina 1000mg;122;3.000;3.750;16/04/2028;LOTE-24853;Chile-Santiago;366.000
+Loperamida 50mg;53;1.500;1.875;20/06/2028;LOTE-59281;Costa Rica-San José;79.500
+Fluoxetina 1000mg;77;5.000;6.500;7/04/2028;LOTE-97384;Colombia-Medellín;385.000
+Paracetamol 200mg;52;8.000;11.200;7/01/2027;LOTE-53174;México-Ciudad de México;416.000
+Ciprofloxacino 750mg;121;5.000;6.500;10/01/2029;LOTE-60126;Colombia-Medellín;605.000
+Losartán 150mg;25;1.500;2.100;23/06/2028;LOTE-33493;Colombia-Cali;37.500
+Ranitidina 400mg;10;12.000;16.200;6/09/2028;LOTE-21809;Colombia-Medellín;120.000
+Enalapril 50mg;41;1.200;1.560;7/11/2027;LOTE-19526;México-Guadalajara;49.200
+Ondansetrón 600mg;36;2.500;3.000;4/01/2029;LOTE-60586;Chile-Santiago;90.000
+Metronidazol 400mg;4;8.000;10.800;2/09/2028;LOTE-51641;España-Madrid;32.000
+Atorvastatina 850mg;136;500;625;21/08/2027;LOTE-34741;México-Guadalajara;68.000
+Furosemida 850mg;113;1.200;1.620;8/10/2027;LOTE-36854;Argentina-Buenos Aires;135.600
+Metronidazol 250mg;27;2.000;2.500;9/11/2028;LOTE-80626;Costa Rica-San José;54.000
+Furosemida 600mg;60;6.500;8.775;11/02/2028;LOTE-77298;Colombia-Cali;390.000
+Gabapentina 1000mg;51;2.500;3.375;14/10/2026;LOTE-92197;Panamá-Ciudad de Panamá;127.500
+Ranitidina 100mg;35;3.000;3.900;29/04/2028;LOTE-64722;Brasil-São Paulo;105.000
+Metronidazol 300mg;24;6.500;8.125;4/01/2028;LOTE-26256;Chile-Santiago;156.000
+Ácido Fólico 150mg;62;1.000;1.350;14/06/2027;LOTE-32090;Costa Rica-San José;62.000
+Complejo B 300mg;38;1.200;1.380;9/07/2027;LOTE-99793;Costa Rica-San José;45.600
+Levotiroxina 50mcg;147;6.500;7.800;26/03/2027;LOTE-88326;Argentina-Buenos Aires;955.500
+Omeprazol 500mg;9;8.000;9.600;26/11/2028;LOTE-96294;Colombia-Cali;72.000
+Furosemida 850mg;98;500;600;9/04/2027;LOTE-64002;Chile-Santiago;49.000
+Amoxicilina 150mg;136;8.000;9.200;22/04/2028;LOTE-63180;Colombia-Cali;1.088.000
+Metronidazol 600mg;34;3.500;4.200;20/04/2028;LOTE-53528;Colombia-Bogotá;119.000
+Cefalexina 50mg;38;8.000;10.400;23/05/2028;LOTE-23437;Chile-Santiago;304.000
+Prednisona 400mg;145;10.000;12.500;27/01/2028;LOTE-70752;Estados Unidos-Miami;1.450.000
+Aciclovir 400mg;112;1.200;1.620;12/01/2027;LOTE-78939;México-Guadalajara;134.400
+Hidroclorotiazida 600mg;111;10.000;11.500;11/08/2027;LOTE-17167;México-Ciudad de México;1.110.000
+Ácido Fólico 750mg;111;8.000;10.800;12/08/2027;LOTE-49944;Costa Rica-San José;888.000
+Alprazolam 100mg;63;1.200;1.560;23/05/2027;LOTE-75881;Estados Unidos-Miami;75.600
+Captopril 50mg;122;1.200;1.620;19/05/2027;LOTE-81431;México-Ciudad de México;146.400
+Clindamicina 400mg;61;1.000;1.400;29/07/2028;LOTE-58335;Estados Unidos-Miami;61.000
+Fluoxetina 400mg;145;2.000;2.400;13/07/2028;LOTE-65256;Ecuador-Quito;290.000
+Diclofenaco 100mg;26;1.500;1.725;20/03/2028;LOTE-85482;Chile-Santiago;39.000
+Acetaminofén 250mg;63;4.000;4.600;15/08/2027;LOTE-32546;Colombia-Medellín;252.000
+Tramadol 500mg;136;8.000;9.600;17/09/2027;LOTE-86743;Colombia-Barranquilla;1.088.000
+Amoxicilina 250mg;8;12.000;15.000;29/07/2027;LOTE-52513;Chile-Santiago;96.000
+Cetirizina 500mg;53;2.500;3.125;26/08/2028;LOTE-17728;Colombia-Barranquilla;132.500
+Salbutamol 25mcg;121;500;600;28/06/2028;LOTE-83378;Colombia-Barranquilla;60.500
+Fluoxetina 850mg;61;2.500;2.875;13/07/2028;LOTE-23906;México-Ciudad de México;152.500
+Ácido Fólico 300mg;71;10.000;14.000;2/02/2027;LOTE-53900;Brasil-São Paulo;710.000
+Loperamida 500mg;107;1.000;1.200;3/05/2027;LOTE-50260;Colombia-Medellín;107.000
+Vitamina D3 1000mg;51;3.500;4.200;23/09/2028;LOTE-40860;Argentina-Buenos Aires;178.500
+Clindamicina 250mg;70;6.500;9.100;6/03/2028;LOTE-25172;Ecuador-Quito;455.000
+Hidroclorotiazida 200mg;78;2.000;2.800;6/05/2027;LOTE-46285;Colombia-Cali;156.000
+Doxiciclina 850mg;24;12.000;13.800;11/12/2027;LOTE-79245;Colombia-Medellín;288.000
+Hidroclorotiazida 50mg;2;4.000;5.400;31/05/2027;LOTE-65502;España-Madrid;8.000
+Gabapentina 100mg;43;4.000;4.800;26/05/2027;LOTE-33505;México-Ciudad de México;172.000
+Ácido Fólico 600mg;8;2.000;2.400;21/10/2026;LOTE-91515;Chile-Santiago;16.000
+Sulfato Ferroso 750mg;99;500;650;17/11/2026;LOTE-33579;Colombia-Medellín;49.500
+Sertralina 850mg;93;5.000;7.000;25/01/2028;LOTE-14188;Argentina-Buenos Aires;465.000
+Dexametasona 600mg;134;2.000;2.700;23/11/2028;LOTE-31649;Colombia-Medellín;268.000

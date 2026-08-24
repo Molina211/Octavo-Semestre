@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0825cba46b5e5223",
+        "id": "9c9556868966c3cf",
         "type": "tabs",
         "children": [
           {
-            "id": "d5c5b2c36b037613",
+            "id": "c3f7e78d38e6d124",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -184,29 +180,33 @@
   },
   "active": "b43ff452adbd5d65",
   "lastOpenFiles": [
+    "Formulación y Evaluación de Proyectos/Semana 03/1.Procesos de Iniciacion.pptx",
+    "Sistemas Distribuidos/Semana 03/Documentación.md",
+    "README.md",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRL3127.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRD3076.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRL0908.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRD0877.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRL2229.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRD2186.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRL1570.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRD1523.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRL0404.tmp",
+    "Auditoría de Sistemas Informáticos/Semana 03/~WRD0345.tmp",
+    "Teoría de las Organizaciones/Semana 03/Dia Festivo - No hubo clases ni trabajo.md",
+    "Entrevista sobre los procedimientos y actividades de la Biblioteca de CORHUILA.md",
+    "Sistemas Distribuidos/ProyectoDistribuido/Repositorio de documentación/ADRs/ADR-001.md",
     "Sistemas Distribuidos/Semana 02/WeeklySummary/Architecture.png",
     "Sistemas Distribuidos/Semana 02/WeeklySummary/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
     "Sistemas Distribuidos/Semana 02/WeeklySummary/Week-01.png",
-    "Sistemas Distribuidos/Semana 02/WeeklySummary",
-    "Sistemas Distribuidos/Semana 02/Presentation/HABLADOR EMPRESA.ppsx",
-    "Sistemas Distribuidos/Semana 02/Presentation",
     "Sistemas Distribuidos/Semana 02/Image/WhatsApp Image 2026-03-01 at 2.13.18 PM.jpeg",
     "Sistemas Distribuidos/Semana 02/Image/WhatsApp Image 2026-03-01 at 2.12.59 PM.jpeg",
-    "Sistemas Distribuidos/Semana 02/Image",
-    "Sistemas Distribuidos/Semana 02/Data/valores.xlsx",
-    "Sistemas Distribuidos/Semana 02/Data/RESERVAS 2026.xlsx",
-    "Sistemas Distribuidos/Semana 02/Data/PAGOS OPERACIONALES.xlsx",
-    "Sistemas Distribuidos/Semana 02/Data/GASTOS OPERACIONALES.xlsx",
-    "Sistemas Distribuidos/Semana 02/Data/CONTABILIDAD EMPRESARIAL.xlsx",
-    "Sistemas Distribuidos/Semana 02/Data",
     "Sistemas Distribuidos/Semana 02/preguntas-respuestas-cliente-travesia-natural.md",
     "Sistemas Distribuidos/Semana 02/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
     "Sistemas Distribuidos/ProyectoDistribuido/Weekly/sistemas-distribuidos-2026-b-g2/02-week/02-session/ChatGPT Image Aug 13, 2026, 09_38_37 AM.png",
     "Sistemas Distribuidos/Semana 02/Week-01.png",
     "Sistemas Distribuidos/ProyectoDistribuido/Weekly/sistemas-distribuidos-2026-b-g2/01-week/hu-status/WeeklySummary/Week-01.png",
-    "README.md",
     "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810072016.png",
-    "Formulación y Evaluación de Proyectos/Semana 02/ANEXOS/Pasted image 20260810065211.png",
     "Formulación y Evaluación de Proyectos/Semana 02/Desarrollo de proyectos metodología PMI.md",
     "Sistemas Distribuidos/Semana 01/Dominio - Módulo.md",
     "Sistemas Distribuidos/Semana 01/Worker - API REST.md",
